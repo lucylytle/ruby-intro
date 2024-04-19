@@ -8,4 +8,22 @@
 # end
 
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+tacos = ["carnitas", "carne asada", "pollo", "pescado", "shrimp"]
+
+# friends = ["Rachel", "Monica", "Phoebe", "Ross", "Chandler", "Joey"]
+
+index = 0 
+loop do 
+
+if index == tacos.size
+    break
+end  
+    taco = tacos[index]
+    puts "#{taco} tacos"
+    index = index + 1
+end 
+
+loop
+for taco in tacos 
+    puts "#{taco} tacos"
+end 
